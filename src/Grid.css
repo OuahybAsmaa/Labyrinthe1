@@ -1,0 +1,12 @@
+.path-cell {
+    animation: glow 2s infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 8px rgba(239, 220, 57, 0.8);
+    }
+    to {
+      box-shadow: 0 0 16px rgb(91, 230, 147);
+    }
+  }
